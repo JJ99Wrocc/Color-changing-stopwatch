@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- KIT -->
+    <script src="https://kit.fontawesome.com/c438e7529f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p class="info">
+            <i class="fas fa-question"></i>
+        </p>
+        <p class="brush brush1">
+            <i class="fa-solid fa-paintbrush"></i>
+        </p>
+        <p class="brush one color">
+            <i class="fa-solid fa-paintbrush"></i>
+        </p>
+        <p class="brush two color">
+            <i class="fa-solid fa-paintbrush"></i>
+        </p>
+        <p class="brush tree color">
+            <i class="fa-solid fa-paintbrush"></i>
+        </p>
+        <h1>stoper</h1>
+        <p class="stopwatch">0:00</p>
+        <p class="time">0:00</p>
+
+        <div class="buttons">
+            <button class="start"><i class="fas fa-play"></i>START</button>
+            <button class="pause"><i class="fas fa-pause"></i>PAUZA</button>
+            <button class="stop"><i class="fas fa-stop"></i>STOP</button>
+            <button class="reset"><i class="fas fa-times"></i>DELETE</button>
+            <button class="history">archiwum</button>
+        </div>
+
+        <ul class="time-list"></ul>
+    </div>
+
+    <div class="modal-shadow">
+        <div class="modal">
+            <h3>Instrukcja:</h3>
+            <ul>
+                <li><i class="fas fa-play"></i> - start</li>
+                <li><i class="fas fa-pause"></i> - pauza</li>
+                <li><i class="fas fa-stop"></i> - stop</li>
+                <li><i class="fas fa-times"></i> - skasuj wszystko łącznie z archiwum</li>
+            </ul>
+            <p><strong>archiwum</strong> - zobacz wcześniejsze pomiary</p>
+            <button class="close">Zamknij</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js" ></script>
+</body>
+</html>
